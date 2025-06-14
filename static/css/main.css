@@ -1,0 +1,66 @@
+:root {
+  --slate-300: rgb(214, 226, 240); 
+  --slate-500: rgb(104, 119, 141); 
+  --slate-900: rgb(31, 50, 81); 
+
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 5vh);
+  background-color: var(--slate-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.title {
+  color: var(--slate-900);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.description {
+  color: var(--slate-500);
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.card img {
+  width: 350px;
+}
+
+/* FOOTER */
+.attribution { 
+  height: 5vh;
+  font-size: 11px; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.attribution p {
+  margin: 0;
+}
